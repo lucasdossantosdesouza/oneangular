@@ -1,0 +1,10 @@
+<p>
+  diretiva-ngstyle works!
+</p>
+<button [ngStyle]="{'background-color':ativo?'blue':'gray' }"
+[style.backgroundColor]="ativo?'blue':'gray'"
+[style.fontWeight]="ativo?'bold':'normal'"
+[style.fontSize]="tamanho + 'px'">
+ diretiva ng style
+</button>
+<input type="text" [(ngModel)]="tamanho">
